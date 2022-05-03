@@ -16,7 +16,7 @@ lapply(x, require, character.only = T)
 rm(x)
 
 # load dataset
-load("../Phys-Stroke-Data_ESOC.RData")
+load("Phys-Stroke-Data_ESOC.RData")
 
 ## as an example, volumes were adjusted following this formula to acount for individual intracranial volume 
 #lesion volume
